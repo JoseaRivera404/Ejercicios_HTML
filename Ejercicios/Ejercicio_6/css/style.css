@@ -1,0 +1,104 @@
+h1{
+    text-align: center;
+}
+
+.bungee-tint-regular {
+    font-family: "Bungee Tint", sans-serif;
+    font-style: normal;
+}
+
+.anek-devanagari-parrafo{
+    font-family: "Anek Devanagari", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 656;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 112.2;
+      
+}
+
+p{
+    text-align: justify;
+    font-size: 20px;
+}
+li{
+    font-size: 20px;
+}
+.artist {
+    width: 590px;
+    height: auto;
+    border-radius: 20px;
+    margin-right: 20px; /* Espacio entre la imagen y la biografía */
+    display: block;
+}
+
+.album{
+    width: 100%;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.album:hover{
+    transition: transform 0.5s ease;
+    transform: scale(1.1);
+}
+
+.top{
+    background-color: #0C1844;
+    border-radius: 20px;
+    padding: 5px 5px 5px 5px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.song{
+    color: #FFF5E1;
+}
+
+body{
+    background-color: #FFF5E1;
+}
+
+.biografia {
+    background-color: #FF6969;
+    border-radius: 20px;
+    margin-top: -2%;
+    padding: 5px;
+    color: #0C1844;
+    border: 3px solid black;
+}
+
+.divide{
+    height: 5px;
+    border: none;
+    background-color: #000000; /* Cambia el color de fondo */
+}
+.flex {
+    display: flex;
+    align-items: center; /* Alinea verticalmente la imagen y la biografía */
+    justify-content: center; /* Opcional: centra todo horizontalmente */
+}
+
+.album-container{
+    padding-left: 10px;
+    border-color: white;
+    border-width: 2px;
+}
+
+.logo{
+    width: 60%;
+    height: fit-content;
+}
+.logo:hover{
+    transition: transform 0.5s ease;
+    transform: scale(1.1);
+}
+h1{
+    font-size: 100px;
+}
+h2{
+    font-size: 50px;
+}

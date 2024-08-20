@@ -1,0 +1,19 @@
+body{
+    background-color: #F9DBBA;
+}
+.logo{
+    width: 300px;
+}
+h1{
+    color: #5B99C2;
+}
+h2{
+    color: #1A4870;
+}
+.app{
+    border: black solid;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    padding: 5px;
+}
